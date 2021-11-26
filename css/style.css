@@ -1,6 +1,9 @@
 body,
 p,
 h1,
+h2,
+h3,
+h4,
 ul,
 li,
 blockquote {
@@ -197,21 +200,28 @@ a {
   height: 100%;
 }
 .home-img {
-  width: 50%;
-  height: 700px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 55%;
+  height: 99vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/fotohometwitter.png);
+  background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_850x623.png);
+}
+.home-img img {
+  width: 280px;
 }
 .home-main {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  height: 700px;
-  margin: 35px 0 0 35px;
+  width: 45%;
+  height: 99vh;
+  margin: 0 0 0 35px;
 }
 
-.home-main img {
+.home-main .maintopimg {
+  margin-top: 32px;
   width: 40px;
 }
 .home-main h1 {
@@ -219,11 +229,13 @@ a {
   font-size: 64px;
 }
 .home-main h2 {
+  margin-top: 32px;
   font-size: 32px;
 }
 .home-main .home-google {
   width: 50%;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,7 +251,7 @@ a {
 }
 .home-main .home-facebook {
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,7 +270,7 @@ a {
   display: flex;
   width: 50%;
   justify-content: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .home-main .home-separaçao .leftline {
   height: 50%;
@@ -274,7 +286,6 @@ a {
 }
 .home-main .advance {
   width: 50%;
-  margin-top: 10px;
   border: 1px solid rgba(100, 100, 100, 0.2);
   box-sizing: border-box;
   border-radius: 50px;
@@ -283,14 +294,19 @@ a {
   color: white;
 }
 .home-main h3 {
+  margin-top: 10px;
   width: 50%;
   font-size: 10px;
   color: #8d8f91;
 }
+.home-main h4 {
+  margin-top: 40px;
+  font-size: 17px;
+}
 
 .home-main .login {
-  width: 50%;
   margin-top: 10px;
+  width: 50%;
   border: 1px solid rgba(100, 100, 100, 0.2);
   box-sizing: border-box;
   border-radius: 50px;

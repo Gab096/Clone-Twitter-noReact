@@ -351,3 +351,8 @@ a {
     font-size: 23px;
   }
 }
+/*   twitter */
+body img {
+  width: 100%;
+  height: 100%;
+}
